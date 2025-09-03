@@ -41,3 +41,13 @@ body{
     background-color: #47b2e4;
     border-radius: 40PX;
 } */
+
+
+img{
+    height: 30px;
+}
+.carousel-item {
+    display: inline-block;
+    height: 30%;
+    background-color: antiquewhite;
+}
