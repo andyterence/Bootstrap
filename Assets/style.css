@@ -11,10 +11,16 @@ body{
 }
 
 .background{
-    background-color: rgba(40, 58, 90, 0.9);
+    background-color: #37517e;
+    /* height: 900px; */
+}
+
+.texte{
+  height: 700px;   
 }
 
 .navbar{
+    /* background-color: rgb(55, 81, 126, 0.9); */
     background-color: rgba(40, 58, 90, 0.9);
 }
 
@@ -22,6 +28,10 @@ body{
     /* padding-top: 40px; */
     font-weight: 600;
     color: rgb(255, 255, 255);
+}
+
+.nav-link:hover{
+    color: #47b2e4;
 }
 
 .img-fluid{
@@ -45,11 +55,19 @@ body{
     }
 }
 
-/* .nav-link:last-child{
-    background-color: #47b2e4;
-    border-radius: 40PX;
-} */
+.btn{
+    /* background-color: #47b2e4; */
+    border-radius: 70px;
+}
 
+.btn-2{
+    background-color: transparent;
+    color: white;
+}
+
+.btn-2:hover{
+    color: #47b2e4;
+}
 
 img{
     height: 30px;
@@ -58,9 +76,4 @@ img{
     display: inline-block;
     height: 30%;
     background-color: antiquewhite;
-}
-
-.text-1{
-    text-align: justify;
-    font-size: 300px;
 }
