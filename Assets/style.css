@@ -16,7 +16,7 @@ body{
 }
 
 .texte{
-  height: 700px;   
+  height: 650px;   
 }
 
 .navbar{
@@ -61,11 +61,16 @@ body{
 }
 
 .btn-2{
+    background-color: #47b2e4;
+    color: white;
+}
+
+.btn-3{
     background-color: transparent;
     color: white;
 }
 
-.btn-2:hover{
+.btn-3:hover{
     color: #47b2e4;
 }
 
@@ -76,4 +81,27 @@ img{
     display: inline-block;
     height: 30%;
     background-color: antiquewhite;
+}
+
+.part2{
+    height: 700px;
+    /* font-weight: bolder; */
+}
+
+.about{
+    color: #37517e;
+}
+
+.col-6{
+    text-align: justify;
+}
+
+.btn-outline-primary{
+    border-radius: 05px;
+}
+
+.part3{
+    background-color: #f5f6f8;
+    width: 100%;
+    height: 700px;
 }
